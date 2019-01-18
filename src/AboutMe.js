@@ -3,7 +3,7 @@ import './AboutMe.css';
 export default class AboutMe extends React.Component{
     render(){
         return(
-            <div className="aboutMe">
+            <div className="aboutMe" id="aboutMe">
             <div className="profilePhoto">
             <div className="profilecenter"><img src="image/profilePhoto.jpg" alt="profilePhoto" className="profilePhotoImg"/></div>
             <p className="aboutMeDetails">
