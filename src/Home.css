@@ -1,0 +1,69 @@
+
+.home{
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 85%);  
+    }
+
+.homeText{
+    text-align: center;
+    text-transform: uppercase;
+    color: beige;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    display: block;
+    letter-spacing: 3vmax;
+}
+.homeTextMain{
+    display: block;
+    font-weight: 600;
+    font-size: 5vw;
+    text-shadow: 6px 2px rgba(0, 0, 0, .5);
+}
+.homeTextSecondary{
+    display: inline;
+    font-weight: 500;
+    font-size: 3.5vw;
+    text-shadow: 6px 2px rgba(0, 0, 0, .5);
+}
+.Icon{
+    max-width: 90%;
+    width: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border: 3px solid rgb(250, 252, 252);
+    border-radius: 100%;
+}
+
+.arrow{
+    position: absolute;
+    max-width: 90%;
+    width: auto;
+    top: 180%;
+    left:46%;
+    width: 80px;
+    height: 80px;
+    animation-name: moveupanddown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+@keyframes moveupanddown{
+    0%{
+        transform: translateY(-30%);
+    }
+    50%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateY(-30%);
+    }
+}
+

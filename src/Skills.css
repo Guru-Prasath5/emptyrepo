@@ -1,0 +1,91 @@
+.SkillsInfo{
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 85%, 0% 100%); 
+}
+.SkillH1{
+    position: absolute;
+    top: 10%;
+    left:5%;
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #34c2e3;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.java{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    
+}
+.Spring{
+    position: absolute;
+    top: 38%;
+    left: 15%;
+}
+.htmll{
+    position: absolute;
+    top: 56%;
+    left: 15%;
+}
+.sql{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.reactjs{
+    position: absolute;
+    top: 38%;
+    left: 55%;
+}
+.jsj{
+    position: absolute;
+    top: 56%;
+    left: 55%;
+}
+.skillText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #34c2e3;
+    font-weight: bold;
+    text-shadow: 5px 5px rgb(0, 0, 0);
+}
+.progress-bar {
+    
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 5px;
+    width: 30%;
+    margin: 50px 0;         
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 rgb(158, 149, 149);           
+}
+
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;    
+}
+
+
+.blue span {
+    background-color: #34c2e3;   
+}
+.stripes span {
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                        transparent 75%, transparent);            
+    
+    animation: animate-stripes 3s linear infinite;             
+}
+
+@keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}

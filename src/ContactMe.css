@@ -1,0 +1,54 @@
+.ContactMe{
+    /* text-align: center; */
+    
+    width: 100%;
+    height: auto;
+
+}
+.contactForm{
+    /* border: 5px solid #fff; */
+    background: linear-gradient(to right bottom, #ecedee,#34c2e3);
+    width: 40%;
+    height: 100%;
+    border-radius: 50px;
+     padding: 5%;
+    /*margin-left: 10%;
+    margin-right: 10%;  */
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(53, 49, 49);
+}
+.ContactTextField{
+    border-color: #f5f6f7;
+    border-left: 10px solid black;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 5px 10px;
+    border-bottom-color: black;
+    border-radius: 100px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.Area{
+height: 40px;
+border-radius: 0px;
+}
+.Footer{
+    
+    width: 1300px;
+    height: 200px;
+    background-color: #1a1a1a;;
+}
+.labels{
+    text-align: left;
+}
+.lables span{
+    display: inline;
+    font-size: 100;
+    text-align: right;
+    color: rgb(247, 68, 68);
+}
