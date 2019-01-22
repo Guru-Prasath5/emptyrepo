@@ -7,7 +7,7 @@ export default class Home extends React.Component
         return(
             <div className="home">
                 <img src="image/Home.jpg" alt="Home img" className="home"/>
-                <div className=" ">
+                <div className="">
                     <img src='image/GC.png' alt="profileIcon" className="Icon"/>
                 </div>
                 <div className="homeText">

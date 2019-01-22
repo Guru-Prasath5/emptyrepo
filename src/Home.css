@@ -3,6 +3,7 @@
     max-width: 100%;
     width: auto;
     height: 100%;
+    
     background-position: top;
     position: relative;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 85%);
@@ -33,8 +34,9 @@
     text-shadow: 6px 2px rgba(0, 0, 0, .5);
 }
 .Icon{
-    max-width: 90%;
-    width: auto;
+    max-width: 100%;
+    width: 9%;
+    height: 10%;
     position: absolute;
     top: 5%;
     left: 5%;
@@ -46,6 +48,7 @@
     position: absolute;
     max-width: 90%;
     width: auto;
+    height: auto;
     top: 180%;
     left:46%;
     width: 80px;

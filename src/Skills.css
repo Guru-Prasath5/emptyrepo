@@ -2,10 +2,10 @@
     max-width: 100%;
     width: auto;
     height: 100%;
-    background-position: top;
+    /* background-position: top; */
     position: relative;
     -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 10%, 100% 0%, 100% 85%, 0% 100%); 
+    clip-path: polygon(0 10%, 100% 0%, 100% 85%, 0% 100%);
 }
 .SkillH1{
     position: absolute;

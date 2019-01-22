@@ -52,6 +52,10 @@ ul li{
     
     line-height: 5;
     text-align: left;
+    word-spacing: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vw;
+    line-height: 3;
 }
 
 .h1Aboutme{

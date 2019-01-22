@@ -21,12 +21,10 @@ export default class AboutMe extends React.Component{
             
             <h1 className="h1Aboutme"> About Me :</h1>
             <p className="pesonalInfo">
-            <p className="paraAboutMe">
+            
                 I am Guru Prasath, interested on web development always eager to learn new things in web,
                 have 4+ years  Experience in java and good hands on experenece in Restfull service,
-                currently learning reactJs, microservices and mongoDB. 
-            </p>
-            <p className="paraAboutMe">
+                currently learning reactJs, microservices and mongoDB. <br/>
             Certain but she but shyness why cottage. Gay the put instrument sir entreaties affronting. 
             Pretended exquisite see cordially the you. Weeks quiet do vexed or whose. 
             Motionless if no to affronting imprudence no precaution. 
@@ -34,7 +32,6 @@ export default class AboutMe extends React.Component{
             Discovery moonlight recommend all one not. 
             Indulged to answered prospect it bachelor is he bringing shutters. 
             Pronounce forfeited mr direction oh he dashwoods ye unwilling. 
-            </p>
 
             </p>
             <p className="aboutMepara">
