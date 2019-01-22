@@ -16,7 +16,7 @@ export default class Home extends React.Component
                         <span className="homeTextSecondary">Bio</span>
                     </h1>
                     <a href="#aboutMe">
-                    <img src='image/arrow.png' alt="swipe down" className="arrow"/></a>
+                    <img src='image/rsz_arrow2.png' alt="swipe down" className="arrow"/></a>
                 </div>
             </div> 
         );
