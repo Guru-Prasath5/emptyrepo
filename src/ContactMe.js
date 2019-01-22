@@ -35,24 +35,24 @@ export default class ContactMe extends React.Component{
             msgErr:false,
             emailIdErr:false
         })
-        if(this.state.name == '' || this.state.name.length <4){
+        if(this.state.name === '' || this.state.name.length <4){
             this.setState({
                 nameErr : true,
             })
         }
         let reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if(this.state.emailId == '' || reg.test(this.state.emailId)==false){
+        if(this.state.emailId === '' || reg.test(this.state.emailId)===false){
             console.log("emai;-"+this.state.emailId)
             this.setState({
                 emailIdErr:true,
             })
         }
-        if(this.state.subject == '' || this.state.subject.length <10){
+        if(this.state.subject ==='' || this.state.subject.length <10){
             this.setState({
                 subjectErr : true,
             })
         }
-        if(this.state.msg ==''|| this.state.msg.length <20){
+        if(this.state.msg ===''|| this.state.msg.length <20){
             this.setState({
                 msgErr:true,
             })
