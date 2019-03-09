@@ -10,7 +10,7 @@ export default class AboutMe extends React.Component{
             <span className="aboutmedetailsSpan1">Personal Info</span>
                 <span className="aboutmedetailsSpan3">Guru Prasath </span>
                 <span className="aboutmedetailsSpan3">Web Developer </span>
-                <span className="aboutmedetailsSpan3"> BCA, M.tech</span>
+                <span className="aboutmedetailsSpan3"> M.tech</span>
                 <span className="aboutmedetailsSpan3"> 24th Oct</span>
                 <span className="aboutmedetailsSpan3">&nbsp;&nbsp; 4+ java Experience&nbsp;&nbsp;</span>
 
@@ -25,17 +25,17 @@ export default class AboutMe extends React.Component{
                 I am Guru Prasath, interested on web development always eager to learn new things in web,
                 have 4+ years  Experience in java and good hands on experenece in Restfull service,
                 currently learning reactJs, microservices and mongoDB. <br/>
-            Certain but she but shyness why cottage. Gay the put instrument sir entreaties affronting. 
-            Pretended exquisite see cordially the you. Weeks quiet do vexed or whose. 
-            Motionless if no to affronting imprudence no precaution. 
-            My indulged as disposal strongly attended. Parlors men express had private village man. 
-            Discovery moonlight recommend all one not. 
-            Indulged to answered prospect it bachelor is he bringing shutters. 
-            Pronounce forfeited mr direction oh he dashwoods ye unwilling. 
+            Worked in Banking domain under a team called ACT which means Accounts Cards and Transaction for
+            2 years where we have handled debit credit transaction and account creation parts,<br/>
+            Worked on retails domain for 2+ years under Direct team where we handled 3 type of application
+            internal, External and Epro. Internal for system associates only and external for external customers
+            to place order directly and Epro for 3rd part ordering system. etc..
+            
 
             </p>
             <p className="aboutMepara">
             </p>
+            
             </div>
 
         )

@@ -11,7 +11,7 @@ ul li{
 .profilePhoto{
     /* margin-top: -100px; */
     margin-right: 10px;
-    min-width: 340px;
+    min-width: 30%;
     float: left;
     background-color: #0b79d3df;
     border-radius: 20px;
@@ -19,9 +19,11 @@ ul li{
     background: linear-gradient(to top, #bcd3e5df, #0b79d3df);
     /* box-shadow:inset 0px 0px 20px 20px rgba(255, 255, 255, 0.8) */
 }
-
+.profilePhotoImg{
+     max-width: 100%;
+    width: auto; 
+}
 .profilecenter{
-    
     margin-top: 20px;
     text-align: center;
 }
