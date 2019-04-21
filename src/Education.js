@@ -1,14 +1,19 @@
 import React from 'react';
 import './Education.css';
+import './carousel.css';
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 export default class Education extends React.Component{
     
+    
     render(){
+        
         return(
-            <div className="educationCards" >
-            
+            // <div className="educationCards" >
+            <Carousel showThumbs={false} showStatus={false} verticalSwipe='natural'>
             <div className="card1 bordercard1">
-            <img className="shadePhoto" src="image/card1.jpg"></img>
+            <img className="shadePhoto" src="image/card1.jpg" alt="shadePhoto"></img>
             <p className="secondarySchool">
             <span className="tenth">10th</span><br/>
             St.Phinomenal's High School <br/>
@@ -46,7 +51,7 @@ export default class Education extends React.Component{
             7 CGPA</p>
             
             </div>
-            </div>
+            </Carousel>
         )
     }
 }

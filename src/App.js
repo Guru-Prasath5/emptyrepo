@@ -14,7 +14,7 @@ class App extends Component {
         <Home/>
          <AboutMe/>
         <Skills/>
-        <Education studies="10th" school="St.Phinomenal's High School" presentage="60 %"/>
+        <Education />
         <ContactMe/>
         <Footer/>
       </div>
