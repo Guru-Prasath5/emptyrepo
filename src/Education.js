@@ -1,7 +1,6 @@
 import React from 'react';
 import './Education.css';
 import './carousel.css';
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 export default class Education extends React.Component{
